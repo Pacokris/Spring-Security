@@ -1,0 +1,14 @@
+a.logoProject {
+    font-size: 24px;
+    color: black;
+    float: left;
+    text-transform: uppercase;
+}
+
+a.logoProject b {
+    font-weight: 900;
+}
+
+a.logoProject span {
+    color: #BB86FC;
+}

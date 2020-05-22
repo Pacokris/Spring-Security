@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INDEX</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/project.css}"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/4.4.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/font-awesome/5.13.0/css/all.css}"/>
+
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.5.0/jquery.min.js/}"></script>
+    <script type="text/javascript" th:src="@{/webjars/bootstrap/4.4.1/js/bootstrap.min.js}"></script>
+</head>
+<body>
+<!-- header start -->
+<div th:replace="~{fragments/header :: header}"></div>
+<!-- header end -->
+
+<div class="jumbotron" style="text-align: center">
+    <h1 class="display-4">Welcome to the SHIELD</h1>
+    <hr class="my-4">
+    <div>
+        <div class="row">
+            <div class="col-sm-6 card" style="width: 18rem;">
+                <div class="card-body">
+                    <p class="card-text">nom: Steve<br>MDP: CHAMPION</p>
+                    <a href="/avengers/assemble" class="btn btn-info">Access Champions</a>
+                </div>
+            </div>
+            <div class="col-sm-6 card" style="width: 18rem;">
+                <div class="card-body">
+                    <p class="card-text">nom: Nickflerken<br>MDP: DIRECTOR</p>
+                    <a href="/secret-bases" class="btn btn-warning">Access Directeur</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
